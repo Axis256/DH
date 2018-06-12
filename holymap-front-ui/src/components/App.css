@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+    display: flex;
+    background-color: #222;
+    height: 40px;
+    color: white;
+    padding: 10px;
+}
+
+
+.row{
+    flex-direction: row;
+}
+
+.buttons{
+    display: flex;
+    margin-left: 50%;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.lnk{
+    margin-left: 30px;
+}
+
+.btn{
+    width: 8em;
+    height: 100%;
+    padding: 8px;
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: 700;
+    border: solid 1px white;
+    background-color: #222222 ;
+    color: white;
+    user-select: none;
+}
+
+.btn:hover{
+    user-select: none;
+    border-bottom: solid 4px red;
+}
+
+.btn:focus{
+    outline: 0;
+}
+
+/*#child{*/
+    /*font-size: 8em;*/
+/*}*/
+#map{
+    margin-left: 2em;
+}
+h1{
+    float: left;
+    font-size: 2.5em;
+    margin: 0 10px 10px;
+    color: white;
+    /*-webkit-text-stroke: 0.5px white;*/
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}
